@@ -280,3 +280,21 @@ a.button:hover{
         font-size: 15px;
     }
 }
+
+
+@media all and (max-width:360px){
+    #spotlight h1{
+        font-size: 26px;
+    }
+    #spotlight p{
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+    #spotlight p span{
+        font-size: 18px;
+    }
+    #main div.container form{
+        padding: 25px 44px;
+    }
+
+}
