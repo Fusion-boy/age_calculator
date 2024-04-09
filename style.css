@@ -153,3 +153,10 @@ header a.right:hover{
 a.button:hover{
     text-decoration: underline;
 }
+
+
+@media all and (max-width:1200px) {
+    #spotlight h1{
+        font-size: 48px;
+    }
+}
