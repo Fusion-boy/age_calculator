@@ -153,3 +153,148 @@ header a.right:hover{
 a.button:hover{
     text-decoration: underline;
 }
+
+
+@media all and (max-width:1200px) {
+    #spotlight h1{
+        font-size: 48px;
+    }
+}
+
+
+@media all and (max-width:1080px) {
+    #main div.container form{
+        flex-direction: row;
+    }
+    #main div.container form div.top{
+        width: 45%;
+        flex-direction: column;
+    }
+    #main div.container form div.top #birthYear{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #main div.container form div.top input#result{
+        width: 100%;
+    }
+    header h1.left{
+
+    }
+}
+
+
+@media all and (max-width:768px) {
+    #main div.container form{
+        flex-direction: column;
+        height: 196px;
+    }
+    #main div.container form div.top{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+    #main div.container form div.top #birthYear{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #main div.container form div.top input#result{
+        width: 100%;
+    }
+    header{
+        padding: 20px 65px;
+    }
+}
+
+
+@media all and (max-width:640px){
+    header{
+        justify-content: center;
+    }
+    header a.right{
+        display: none;
+    }
+    #spotlight{
+        
+        padding: 38px 0;
+    }
+    #spotlight h1{
+        font-size: 35px;
+    }
+    #spotlight p{
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    #spotlight p span{
+        font-size: 21px;
+    }
+    #spotlight a.button{
+        font-size: 20px;
+        padding: 18px 24px;
+    }
+    #main div.container{
+        padding:56px
+    }
+    #main div.container form{
+        box-shadow: -12px 16px 20px lavender;
+    }
+}
+
+
+@media all and (max-width:480px){
+    #spotlight{
+        height: 46vh;
+    }
+    #spotlight h1{
+        font-size: 26px;
+    }
+    #spotlight p{
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+    #spotlight p span{
+        font-size: 19px;
+    }
+    #spotlight a.button{
+        font-size: 19px;
+        padding: 18px 24px;
+    }
+    #main div.container{
+        padding:38px
+    }
+    #main div.container form{
+        box-shadow:none;
+    }
+    #main div.container form div.top #birthYear{
+        width: 100%;
+        height: 16px;
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+    #main div.container form div.top input#result{
+        width: 100%;
+        height: 16px;
+    }
+    #main div.container form #convert-btn{
+        max-width: 117px;
+        padding: 7px;
+        font-size: 15px;
+    }
+}
+
+
+@media all and (max-width:360px){
+    #spotlight h1{
+        font-size: 26px;
+    }
+    #spotlight p{
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+    #spotlight p span{
+        font-size: 18px;
+    }
+    #main div.container form{
+        padding: 25px 44px;
+    }
+
+}
