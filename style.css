@@ -181,3 +181,26 @@ a.button:hover{
 
     }
 }
+
+
+@media all and (max-width:768px) {
+    #main div.container form{
+        flex-direction: column;
+        height: 196px;
+    }
+    #main div.container form div.top{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+    #main div.container form div.top #birthYear{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #main div.container form div.top input#result{
+        width: 100%;
+    }
+    header{
+        padding: 20px 65px;
+    }
+}
