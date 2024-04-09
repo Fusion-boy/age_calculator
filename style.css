@@ -1,0 +1,63 @@
+#main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4bfbf;
+}
+#main div.container{
+    width: 60%;
+    padding: 82px;
+    background-color: #746d6d;
+    border-radius: 80px;
+    box-shadow: -52px 34px 70px;
+}
+#main div.container form{
+    background-color: #000;
+    padding: 44px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 40px;
+    box-shadow: -48px 32px 64px lavender;
+    flex-direction: column;
+}
+#main div.container form div.top{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+#main div.container form #birthYear{
+    padding: 14px;
+    font-size: 18px;
+    width: 45%;
+    border-radius: 12px;
+    font-weight: 600;
+    box-shadow: inset -4px 1px 11px 9px #9b9b9b;
+}
+#main div.container form #result{
+
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 2px solid dodgerblue;
+    text-align: center;
+    box-shadow: inset 10px 10px 13px 5px #9b9b9b;
+    width: 45%;
+    padding: 14px;
+}
+#main div.container form #convert-btn{
+    padding: 9px;
+    font-size: 18px;
+    display: inline-block;
+    border-radius: 20px;
+    background: #c4c3c3;
+    border: 3px solid white;
+    color: darkblue;
+    font-weight: 700;
+    box-shadow: inset 5px 8px 17px;
+    max-width: 150px;
+}
