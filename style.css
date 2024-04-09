@@ -61,3 +61,33 @@
     box-shadow: inset 5px 8px 17px;
     max-width: 150px;
 }
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 130px;
+    background-color: #848181;
+}
+header h1.left{
+    width: 100px;
+}
+header h1.left a{
+    width: 100%;
+    display: inline-block;
+}
+header h1.left a img{
+    width: 100%;
+    display: inline-block;
+}
+header a.right{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    font-family: sans-serif;
+    
+}
+header a.right:hover{
+    text-decoration: underline;
+}
