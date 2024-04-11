@@ -69,6 +69,7 @@
     font-weight: 700;
     box-shadow: inset 5px 8px 17px;
     max-width: 150px;
+    cursor: pointer;
 }
 
 
