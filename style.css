@@ -89,6 +89,7 @@ header h1.left a{
 header h1.left a img{
     width: 100%;
     display: inline-block;
+    border-radius: 50%;
 }
 header a.right{
     font-size: 22px;
